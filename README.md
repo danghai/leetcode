@@ -10,6 +10,8 @@ LeetCode
 * [Trie](https://github.com/danghai/leetcode#Trie)
 * [Graph](https://github.com/danghai/leetcode#Graph)
 * [UnionFind](https://github.com/danghai/leetcode#UnionFind)
+* [Dynamic Programming](https://github.com/danghai/leetcode#DP)
+
 
 
 
@@ -17,10 +19,17 @@ LeetCode
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
+|187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Solution](./src/HashTable/187.py)|Medium| |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | [Solution](./src/HashTable/266.py)|Easy| |
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](./src/HashTable/299.py)|Medium| |
+|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) | [Solution](./src/HashTable/325.py)|Medium| Running Sum |
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](./src/HashTable/350.py)|Easy| Good |
 |359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Solution](./src/HashTable/359.py)|Easy| |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Solution](./src/HashTable/409.py)|Easy| |
+|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](./src/HashTable/525.py)|Medium| Running Sum |
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](./src/HashTable/560.py)|Medium| Good, Running Sum |
+|734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) | [Solution](./src/HashTable/734.py)|Easy| |
+|974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Solution](./src/HashTable/974.py)|Medium| Good, Similar 560|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Solution](./src/HashTable/1160.py)|Easy| |
 |1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Solution](./src/HashTable/1198.py)|Medium| |
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
@@ -97,6 +106,7 @@ LeetCode
 |78|[Subsets](https://leetcode.com/problems/subsets/) | [Solution](./src/backtracking/78.py)|Medium| Good |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/) | [Solution](./src/backtracking/90.py)|Medium| |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Solution](./src/backtracking/216.py)|Medium| |
+|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Solution](./src/backtracking/784.py)|Medium| |
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [Solution](./src/backtracking/1641.py)|Medium| |
 
 ## Sliding Window
@@ -119,7 +129,7 @@ LeetCode
 |1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) | [Solution](./src/SlidingWindow/1176.py)|Easy| |
 |1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | [Solution](./src/SlidingWindow/1208.py)|Medium| Good |
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Solution](./src/SlidingWindow/1358.py)|Medium| |
-|1432|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Solution](./src/SlidingWindow/1432.py)|Medium| |
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Solution](./src/SlidingWindow/1423.py)|Medium| |
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Solution](./src/SlidingWindow/1438.py)|Medium| Good, Heap + SlidingWindow |
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Solution](./src/SlidingWindow/1456.py)|Medium| |
 |1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Solution](./src/SlidingWindow/1658.py)|Medium| |
@@ -164,8 +174,22 @@ LeetCode
 |0| | [Union template](https://www.techiedelight.com/disjoint-set-data-structure-union-find-algorithm/)|| |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](./src/UnionFind/261.py)|Medium| Important |
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](./src/UnionFind/684.py)|Medium| Important |
+|737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) | [Solution](./src/UnionFind/737.py)|Medium| Good, Dict in UF, DFS |
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/) | [Solution](./src/UnionFind/952.py)|Hard| |
 |1135|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) | [Solution](./src/UnionFind/1135.py)|Medium| |
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Solution](./src/UnionFind/1319.py)|Medium| Good |
 |1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/) | [Solution](./src/UnionFind/1361.py)|Medium| Similar 261 |
 |1627|[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/) | [Solution](./src/UnionFind/1627.py)|Hard| |
+
+## DP
+| # | Title | Solution | Difficulty | Tag |
+|---| ----- | -------- | ---------- | --- |
+|0| | [DP template](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)|| |
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](./src/dp/62.py)|Medium| Distinct Ways |
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](./src/dp/63.py)|Medium| Distinct Ways |
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](./src/dp/64.py)|Medium| Path to Reach a Target|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](./src/dp/70.py)|Easy| Distinct Ways |
+|256|[Paint House](https://leetcode.com/problems/paint-house/) | [Solution](./src/dp/256.py)|Medium| Distinct Ways|
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Solution](./src/dp/516.py)|Medium| String, Important |
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](./src/dp/746.py)|Easy| Path to Reach a Target|
+|931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Solution](./src/dp/931.py)|Medium| Path to Reach a Target|
