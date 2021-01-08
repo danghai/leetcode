@@ -11,6 +11,7 @@ LeetCode
 * [Graph](https://github.com/danghai/leetcode#Graph)
 * [UnionFind](https://github.com/danghai/leetcode#UnionFind)
 * [Dynamic Programming](https://github.com/danghai/leetcode#DP)
+* [LinkedList](https://github.com/danghai/leetcode#LinkedList)
 
 
 
@@ -20,6 +21,7 @@ LeetCode
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Solution](./src/HashTable/187.py)|Medium| |
+|246|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Solution](./src/HashTable/246.py)|Easy| |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | [Solution](./src/HashTable/266.py)|Easy| |
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](./src/HashTable/299.py)|Medium| |
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) | [Solution](./src/HashTable/325.py)|Medium| Running Sum |
@@ -28,12 +30,19 @@ LeetCode
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Solution](./src/HashTable/409.py)|Easy| |
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](./src/HashTable/525.py)|Medium| Running Sum |
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](./src/HashTable/560.py)|Medium| Good, Running Sum |
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Solution](./src/HashTable/575.py)|Easy| |
+|645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [Solution](./src/HashTable/645.py)|Easy| |
 |734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) | [Solution](./src/HashTable/734.py)|Easy| |
+|811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Solution](./src/HashTable/811.py)|Easy| |
 |974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Solution](./src/HashTable/974.py)|Medium| Good, Similar 560|
+|1056|[Confusing Number](https://leetcode.com/problems/confusing-number/) | [Solution](./src/HashTable/1056.py)|Easy| |
+|1150|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/) | [Solution](./src/HashTable/1150.py)|Easy| |
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Solution](./src/HashTable/1160.py)|Easy| |
 |1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Solution](./src/HashTable/1198.py)|Medium| |
+|1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | [Solution](./src/HashTable/1640.py)|Easy| |
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
 |1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Solution](./src/HashTable/1679.py)|Medium| Good |
+|1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [Solution](./src/HashTable/1711.py)|Medium| Good |
 
 ## Tree
 | # | Title | Solution | Difficulty | Tag |
@@ -58,6 +67,7 @@ LeetCode
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Solution](./src/tree/1123.py)|Medium| DFS + LCA |
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Maximum Level Sum of a Binary Tree](./src/tree/1161.py)|Medium| Tree level |
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Solution](./src/tree/1315.py)|Medium| DFS |
+|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Solution](./src/tree/1379.py)|Medium| DFS |
 |1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Solution](./src/tree/1469.py)|Easy| DFS |
 |1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | [Even Odd Tree](./src/tree/1609.py)|Medium| Tree level |
 |1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | [Solution](./src/tree/1644.py)|Medium| DFS + LCA |
@@ -66,10 +76,15 @@ LeetCode
 ## Binary Search
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|0| | [binary search Template](./src/BinarySearch/template)|| |
 |33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](./src/BinarySearch/33.py) | Medium | |
 |34| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](./src/BinarySearch/34.py) | Medium ||
 |153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](./src/153.py) | Medium ||
 |162| [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Find Peak Element](./src/162.py) | Medium ||
+|540| [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Solution](./src/BinarySearch/540.py) | Medium ||
+|702| [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | [Solution](./src/BinarySearch/702.py) | Medium ||
+|852| [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Solution](./src/BinarySearch/852.py) | Easy ||
+|1539| [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Solution](./src/BinarySearch/1539.py) | Easy ||
 
 
 ## Heap
@@ -106,6 +121,7 @@ LeetCode
 |78|[Subsets](https://leetcode.com/problems/subsets/) | [Solution](./src/backtracking/78.py)|Medium| Good |
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/) | [Solution](./src/backtracking/90.py)|Medium| |
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Solution](./src/backtracking/216.py)|Medium| |
+|526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [Solution](./src/backtracking/526.py)|Medium| |
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Solution](./src/backtracking/784.py)|Medium| |
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [Solution](./src/backtracking/1641.py)|Medium| |
 
@@ -165,6 +181,7 @@ LeetCode
 |1059|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | [Solution](./src/Graph/1059.py)|Medium| Topological Sort |
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Solution](./src/Graph/1254.py)|Medium| Island Graph |
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | [Course Schedule IV](./src/Graph/1462.py)|Medium| Topological Sort |
+|1506|[Find Root of N-Ary Tree](https://leetcode.com/problems/find-root-of-n-ary-tree/) | [Solution](./src/Graph/1506.py)|Medium| In/Out Degree |
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Solution](./src/Graph/1557.py)|Medium| In/Out Degree |
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) | [Solution](./src/Graph/1615.py)|Medium| In/Out Degree |
 
@@ -193,3 +210,9 @@ LeetCode
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Solution](./src/dp/516.py)|Medium| String, Important |
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](./src/dp/746.py)|Easy| Path to Reach a Target|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Solution](./src/dp/931.py)|Medium| Path to Reach a Target|
+
+## LinkedList
+| # | Title | Solution | Difficulty | Tag |
+|---| ----- | -------- | ---------- | --- |
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](./src/linkedlist/21.py)|Easy| |
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Solution](./src/linkedlist/82.py)|Medium| |

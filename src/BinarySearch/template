@@ -1,0 +1,62 @@
+1. Find the exact target
+
+def standard_binary_search(lst, target):
+    l, r = 0, len(lst) - 1
+    while (l <= r):
+        mid = l + (r - l) // 2
+        if lst[mid] == target:
+            return mid
+        elif lst[mid] < target:
+            l = mid + 1
+        else:
+            h = mid - 1
+    return -1
+
+
+2. Find the first position that value >= target
+
+def bisect_left_raw(lst, target):
+    l, r = 0, len(lst) - 1
+    while (l <= r):
+        mid = l + (r - l) // 2
+        if lst[mid] < target:  # Note: < for bisect_left, <= for bisect_right
+            l = mid + 1
+        else:
+            r = mid - 1
+
+    return l
+
+3. Find the first position that value > target
+
+def bisect_right_raw(lst, target):
+    l, r = 0, len(lst) - 1
+    while (l <= r):
+        mid = l + (r - l) // 2
+        if lst[mid] <= target: # Note:  <= for bisect_right, < for bisect_left
+            l = mid + 1
+        else:
+            r = mid - 1
+
+    return l
+
+
+Python built in bisect, bisect_left, bisect_right
+By index, we mean that we are finding the index in a list at which if the desired element is inserted, Our list will remain sorted.
+For example:
+
+import bisect
+a = [1,2,3,4,5,7,8,9,10]
+print(bisect.bisect(a,6))
+print(bisect.bisect(a,9))
+print(bisect.bisect_left(a,9))
+print(bisect.bisect_right(a,9))
+
+Explanation:
+Element 6 can be inserted at index- 5
+Element 9 can be inserted at index- 8
+Element 9 can be inserted at index- 7
+Element 9 can be inserted at index- 8
+
+
+
+
