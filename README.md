@@ -210,6 +210,7 @@ LeetCode
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Solution](./src/dp/516.py)|Medium| String, Important |
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](./src/dp/746.py)|Easy| Path to Reach a Target|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Solution](./src/dp/931.py)|Medium| Path to Reach a Target|
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Solution](./src/dp/1155.py)|Medium| Distinct Ways|
 
 ## LinkedList
 | # | Title | Solution | Difficulty | Tag |
