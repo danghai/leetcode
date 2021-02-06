@@ -43,6 +43,7 @@ LeetCode
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
 |1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Solution](./src/HashTable/1679.py)|Medium| Good |
 |1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [Solution](./src/HashTable/1711.py)|Medium| Good |
+|1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | [Solution](./src/HashTable/1748.py)|Easy| |
 
 ## Tree
 | # | Title | Solution | Difficulty | Tag |
@@ -215,4 +216,7 @@ LeetCode
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](./src/linkedlist/21.py)|Easy| |
+|61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](./src/linkedlist/61.py)|Medium| |
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Solution](./src/linkedlist/82.py)|Medium| |
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](./src/linkedlist/206.py)|Easy| Good |
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Solution](./src/linkedlist/328.py)|Medium| |
