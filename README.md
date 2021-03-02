@@ -216,8 +216,13 @@ LeetCode
 ## LinkedList
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](./src/linkedlist/19.py)|Medium| |
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](./src/linkedlist/21.py)|Easy| |
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](./src/linkedlist/61.py)|Medium| |
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Solution](./src/linkedlist/82.py)|Medium| |
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](./src/linkedlist/83.py)|Easy| |
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](./src/linkedlist/206.py)|Easy| Good |
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Solution](./src/linkedlist/328.py)|Medium| |
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](./src/linkedlist/876.py)|Easy| Two Pointer|
+|1474|[Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | [Solution](./src/linkedlist/1474.py)|Easy| |
+|1669|[Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | [Solution](./src/linkedlist/1669.py)|Medium| |
